@@ -22,19 +22,19 @@ export const Header = () => {
                                 Perfumy
                             </div>
                             <div className=' gap-10 font-semibold hidden pr-10 lg:pr-40 md:pr-24 sm:pr-24 sm:placeholder-amber-200 lg:flex md:flex sm:flex '>
-                                <button className="hover:text-orange-400  " onClick={() => navigate("/")}>Home</button>
-                                <button className="hover:text-orange-400  " onClick={() => navigate('/product')}>Product</button>
-                                <button className="hover:text-orange-400 " onClick={() => navigate('/contact')}>Contact</button>
-                                <button className="hover:text-orange-400 " onClick={() => navigate('/about')}>About</button>
+                                <button className="hover:text-orange-400  " onClick={() => navigate("/perfumy")}>Home</button>
+                                <button className="hover:text-orange-400  " onClick={() => navigate('/perfumy/product')}>Product</button>
+                                <button className="hover:text-orange-400 " onClick={() => navigate('/perfumy/contact')}>Contact</button>
+                                <button className="hover:text-orange-400 " onClick={() => navigate('/perfumy/about')}>About</button>
                             </div>
                         </div>
 
                         <DisclosurePanel className="lg:hidden md:hidden sm:hidden">
                             <div className='flex flex-col space-y-3 bg-zinc-800'>
-                                <button className="hover:text-orange-400 " onClick={() => navigate("/")}>Home</button>
-                                <button className="hover:text-orange-400  " onClick={() => navigate('/product')}>Product</button>
-                                <button className="hover:text-orange-400  " onClick={() => navigate('/contact')}>Contact</button>
-                                <button className="hover:text-orange-400 pb-6 " onClick={() => navigate('/about')}>About</button>
+                                <button className="hover:text-orange-400 " onClick={() => navigate("/perfumy")}>Home</button>
+                                <button className="hover:text-orange-400  " onClick={() => navigate('/perfumy/product')}>Product</button>
+                                <button className="hover:text-orange-400  " onClick={() => navigate('/perfumy/contact')}>Contact</button>
+                                <button className="hover:text-orange-400 pb-6 " onClick={() => navigate('/perfumy/about')}>About</button>
                             </div>
                         </DisclosurePanel>
                     </div>

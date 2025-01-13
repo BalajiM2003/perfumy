@@ -5,13 +5,13 @@ import { useNavigate } from 'react-router-dom';
 export const Product = () => {
     const navigate = useNavigate();
     function handlePurchase(perfume) {
-        navigate(`/product/details`, { state: { perfume } })
+        navigate(`/perfumy/product/details`, { state: { perfume } })
 
     }
     return (
         <>
             <div>
-                <p className=' mt-28 text-white font-bold text-4xl shadow-lg p-6 pb-8 flex justify-center items-center w-full'>Unleash the essence of elegance – your signature scent awaits!</p></div>
+                <p className=' pt-28 text-white font-bold text-4xl shadow-lg p-6 pb-8 flex justify-center items-center w-full'>Unleash the essence of elegance – your signature scent awaits!</p></div>
             <div className='pt-20 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 w-full justify-items-center p-10 lg:p-28 md:p-20 sm:p-28 gap-8 '>
                 {
                     products.map((perfume, index) => (

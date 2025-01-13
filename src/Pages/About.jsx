@@ -2,8 +2,8 @@ import React from 'react';
 
 export const About = () => {
     return (
-        <div className=" text-white min-h-screen flex flex-col items-center mt-20">
-            <div className="text-center py-16 px-4">
+        <div className=" text-white min-h-screen flex flex-col items-center ">
+            <div className="text-center py-16 mt-20 px-4">
                 <h1 className="text-5xl font-extrabold text-zinc-800 mb-6">About Us</h1>
                 <p className="text-2xl font-semibold text-gray-300 leading-relaxed">
                     At <span className="text-zinc-800 font-semibold">Perfumy</span>, we believe that every fragrance tells a story. Our mission is to help you find the scent that perfectly captures yours.
@@ -13,7 +13,7 @@ export const About = () => {
             <div className="flex flex-wrap justify-center gap-12 -py-2 px-0 ">
                 <div className="w-full flex justify-center items-center ">
                     <img
-                        src="/assets/abc.jpg"
+                        src="/perfumy/assets/abc.jpg"
                         alt="Perfume bottles and flowers"
                         className=" shadow-lg opacity-80 h-3/4 rounded"
                     />
@@ -62,7 +62,7 @@ export const About = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center ">
                     <div>
                         <img
-                            src="/assets/dummy.png"
+                            src="/perfumy/assets/dummy.png"
                             alt="Founder"
                             className="rounded w-40 h-40 mx-auto mb-4"
                         />
@@ -71,7 +71,7 @@ export const About = () => {
                     </div>
                     <div>
                         <img
-                            src="/assets/dummy.png"
+                            src="/perfumy/assets/dummy.png"
                             alt="Creative Director"
                             className="rounded w-40 h-40 mx-auto mb-4"
                         />
@@ -80,7 +80,7 @@ export const About = () => {
                     </div>
                     <div>
                         <img
-                            src="/assets/dummy.png"
+                            src="/perfumy/assets/dummy.png"
                             alt="Master Perfumer"
                             className="rounded w-40 h-40 mx-auto mb-4"
                         />
@@ -89,7 +89,7 @@ export const About = () => {
                     </div>
                     <div>
                         <img
-                            src="/assets/dummy.png"
+                            src="/perfumy/assets/dummy.png"
                             alt="Marketing Lead"
                             className="rounded w-40 h-40 mx-auto mb-4"
                         />
@@ -107,7 +107,7 @@ export const About = () => {
                 </p>
                 <button
                     className="bg-black text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors"
-                    onClick={() => window.location.href = '/product'}
+                    onClick={() => window.location.href = '/perfumy/product'}
                 >
                     Explore Our Collection
                 </button>

@@ -1,6 +1,6 @@
 [
     {
-        "image": "/assets/Luxury-Perfume-PNG-Free-Download.png",
+        "image": "/perfumy/assets/Luxury-Perfume-PNG-Free-Download.png",
         "perfumeName": "Velvet Rose",
         "description": "A luxurious blend of Bulgarian rose and delicate jasmine.",
         "price": 49.99,
@@ -12,7 +12,7 @@
         "manufacturer": "Luxury Scents Co."
     },
     {
-        "image": "/assets/p1-removebg-preview.png",
+        "image": "/perfumy/assets/p1-removebg-preview.png",
         "perfumeName": "Joy Forever",
         "description": "An invigorating mix of lemon, bergamot, and orange blossom.",
         "price": 39.99,
@@ -24,7 +24,7 @@
         "manufacturer": "Joy Fragrance Inc."
     },
     {
-        "image": "/assets/p2-removebg-preview.png",
+        "image": "/perfumy/assets/p2-removebg-preview.png",
         "perfumeName": "Daisy Oud",
         "description": "Rich oud wood with hints of saffron and amber.",
         "price": 59.99,
@@ -36,7 +36,7 @@
         "manufacturer": "Oud Masters"
     },
     {
-        "image": "/assets/p3-removebg-preview.png",
+        "image": "/perfumy/assets/p3-removebg-preview.png",
         "perfumeName": "Jasmin Noir",
         "description": "A fresh aquatic fragrance with sea salt and driftwood.",
         "price": 44.99,
@@ -48,7 +48,7 @@
         "manufacturer": "Fresh Essence"
     },
     {
-        "image": "/assets/p4-removebg-preview.png",
+        "image": "/perfumy/assets/p4-removebg-preview.png",
         "perfumeName": "Roberto Cavalli",
         "description": "A warm blend of amber, vanilla, and exotic spices.",
         "price": 54.99,
@@ -60,7 +60,7 @@
         "manufacturer": "Roberto Cavalli Fragrances"
     },
     {
-        "image": "/assets/p6-removebg-preview.png",
+        "image": "/perfumy/assets/p6-removebg-preview.png",
         "perfumeName": "1000 De Jean Patou",
         "description": "A bouquet of peony, lily, and magnolia flowers.",
         "price": 42.99,
@@ -72,7 +72,7 @@
         "manufacturer": "Jean Patou"
     },
     {
-        "image": "/assets/p7-removebg-preview.png",
+        "image": "/perfumy/assets/p7-removebg-preview.png",
         "perfumeName": "Midnight Musk",
         "description": "Seductive musk combined with black currant and patchouli.",
         "price": 59.99,
@@ -84,7 +84,7 @@
         "manufacturer": "Musk & Co."
     },
     {
-        "image": "/assets/p9-removebg-preview.png",
+        "image": "/perfumy/assets/p9-removebg-preview.png",
         "perfumeName": "Angel",
         "description": "Smooth sandalwood with a touch of creamy coconut.",
         "price": 49.99,
@@ -96,7 +96,7 @@
         "manufacturer": "Heavenly Scents"
     },
     {
-        "image": "/assets/zafran.png",
+        "image": "/perfumy/assets/zafran.png",
         "perfumeName": "Zafran Paradise",
         "description": "A fruity mix of pineapple, mango, and coconut milk.",
         "price": 39.99,

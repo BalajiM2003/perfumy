@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
-import { useNavigate, useNavigation } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 export const Contact = () => {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -9,13 +9,13 @@ export const Contact = () => {
     const handlesubmit = (e) => {
         const alert = window.confirm("We received your feedback and will process on it soon");
         if (alert) {
-            navigate("/");
+            navigate("/perfumy");
         }
     }
     return (
-        <div className=" mt-20  text-white min-h-screen flex flex-col items-center">
+        <div className="   text-white min-h-screen flex flex-col items-center">
 
-            <div className="text-center py-12">
+            <div className="text-center py-12 mt-20">
                 <h1 className="text-4xl font-bold mb-4">Get in Touch</h1>
                 <p className="text-lg text-gray-300">We’d love to hear from you! Reach out with any questions or feedback.</p>
             </div>

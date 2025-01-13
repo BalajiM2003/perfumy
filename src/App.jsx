@@ -15,17 +15,27 @@ function App() {
 
   return (
     <>
+
       <BrowserRouter>
         <Scroll />
         <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/product" element={<Product />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/product/details" element={<Details />} />
-          <Route path='/payment' element={<Payment />} />
-        </Routes>
+        <div style={{
+          backgroundImage: "url('/perfumy/assets/bg.jpg')",
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
+          backgroundAttachment: 'fixed',
+          backgroundPosition: 'center',
+          minHeight: '100vh',
+        }}>
+          <Routes>
+            <Route path="/perfumy" element={<Home />} />
+            <Route path="/perfumy/product" element={<Product />} />
+            <Route path="/perfumy/contact" element={<Contact />} />
+            <Route path="/perfumy/about" element={<About />} />
+            <Route path="/perfumy/product/details" element={<Details />} />
+            <Route path='/perfumy/payment' element={<Payment />} />
+          </Routes>
+        </div>
         <Footer />
       </BrowserRouter>
     </>

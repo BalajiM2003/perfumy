@@ -26,16 +26,16 @@ export const Payment = () => {
             return;
         }
         alert('Payment successful! Thank you for your purchase.');
-        navigate('/'); // Redirect to homepage or a success page
+        navigate('/perfumy'); // Redirect to homepage or a success page
     };
 
     if (!perfume) {
         return (
-            <div className="text-center text-white mt-20">
-                <p>Product details are missing. Please go back and select a product.</p>
+            <div className="text-center text-white ">
+                <p className='mt-20'>Product details are missing. Please go back and select a product.</p>
                 <button
                     className="bg-orange-400 text-white px-4 py-2 rounded mt-4"
-                    onClick={() => navigate('/product')}
+                    onClick={() => navigate('/perfumy/product')}
                 >
                     Go Back to Products
                 </button>
